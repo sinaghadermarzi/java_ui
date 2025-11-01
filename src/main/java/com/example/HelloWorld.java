@@ -1,20 +1,13 @@
 package com.example;
 
-/**
- * Hello World application
- */
+import java.awt.*;
+
 public class HelloWorld {
-    
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        System.out.println("Welcome to your Java UI project!");
-    }
-    
-    /**
-     * Method to get greeting message
-     * @return greeting message
-     */
-    public String getGreeting() {
-        return "Hello, World!";
+        Frame frame = new Frame("Hello AWT");
+        Button button = new Button("Click Me");
+        frame.add(button);
+        frame.setSize(300, 200);
+        frame.setVisible(true);
     }
 }

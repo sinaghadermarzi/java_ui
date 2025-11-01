@@ -8,17 +8,9 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class HelloWorldTest {
     
-    // @Test
-    // public void testGetGreeting() {
-    //     HelloWorld helloWorld = new HelloWorld();
-    //     String greeting = helloWorld.getGreeting();
-    //     assertEquals("Hello, World!", greeting);
-    // }
-    
-    // @Test
-    // public void testGreetingNotNull() {
-    //     HelloWorld helloWorld = new HelloWorld();
-    //     String greeting = helloWorld.getGreeting();
-    //     assertNotNull(greeting);
-    // }
+    @Test
+    public void testGetGreeting() {
+
+    }
+
 }
