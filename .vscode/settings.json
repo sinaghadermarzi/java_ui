@@ -9,7 +9,6 @@
     "java.debug.settings.onBuildFailureProceed": true,
     "java.debug.settings.console": "integratedTerminal",
     "files.exclude": {
-        "**/target": true,
         "**/.classpath": true,
         "**/.project": true,
         "**/.settings": true,
